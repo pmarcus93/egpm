@@ -5,7 +5,7 @@ import ConfigServices from "@/services/ConfigServices";
 export default {
 
     get: (id, callback) => {
-        var url = urlimagem + id;
+        let url = urlimagem + id;
         ConfigServices.get(url, callback);
     },
 
